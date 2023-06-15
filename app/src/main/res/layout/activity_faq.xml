@@ -1,0 +1,133 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/background_color"
+    android:layout_height="match_parent">
+
+    <!-- Frequently Asked Questions heading -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Frequently Asked Questions"
+        android:textStyle="bold"
+        android:textColor="#D6D2ED"
+        android:textSize="24sp"
+        android:background="#0F100C"
+        android:padding="16dp"/>
+
+    <!-- How can I apply for a job through the app? -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="How can I apply for a job through the app?"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:id="@+id/mainTextView"
+        android:padding="16dp"
+        android:clickable="true"/>
+
+    <TextView
+        android:id="@+id/extraTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="If you choose the 'Worker' option, you can view the posted jobs and contact entrepreneurs. Use the search bar to find jobs matching your skills.
+        Read the job descriptions carefully and note down the contact number provided. Contact the entrepreneur directly using the provided contact information."
+        android:padding="16dp"
+        android:textSize="16sp"
+        android:visibility="gone" />
+
+    <!-- How can I communicate with the employer through the app? -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="How can I communicate with the employer through the app?"
+        android:textStyle="bold"
+        android:id="@+id/mainTextView1"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:padding="16dp"/>
+
+    <TextView
+        android:id="@+id/extraTextView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Look for the contact information provided by the employer, usually mentioned below the job description. Use the provided contact information to reach out to the employer and express your interest in the job."
+        android:padding="16dp"
+        android:textSize="16sp"
+        android:visibility="gone" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="How can I report fraud or scam job postings on the app?"
+        android:textStyle="bold"
+        android:id="@+id/mainTextView2"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:padding="16dp"/>
+
+    <TextView
+        android:id="@+id/extraTextView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1. On the main page of the app, you will find a feedback option or a designated section for raising complaints. 2. Click on the feedback option to access the complaint submission form. 3. Fill out the required details in the form, including your name, contact information, and a description of the fraudulent or scam job posting. 4. Provide as much information as possible about the job posting, such as the job title, description, and any suspicious or misleading information. 5. The app's support or moderation team will review your complaint and take appropriate action to address the issue."
+        android:padding="16dp"
+        android:textSize="16sp"
+        android:visibility="gone" />
+
+    <!-- How can I update my profile information on the app? -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="How does the app ensure the safety of workers?"
+        android:textStyle="bold"
+        android:id="@+id/mainTextView3"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:padding="16dp"/>
+
+    <TextView
+        android:id="@+id/extraTextView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The app have a reporting mechanism in place where workers can report any safety concerns, inappropriate behavior, or fraudulent activities. "
+        android:padding="16dp"
+        android:textSize="16sp"
+        android:visibility="gone" />
+
+    <!-- What is the process for getting paid for my work? -->
+    <!--    <TextView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="What is the process for getting paid for my work?"-->
+    <!--        android:textStyle="bold"-->
+    <!--        android:textSize="18sp"-->
+    <!--        android:textColor="@color/black"-->
+    <!--        android:padding="16dp"/>-->
+
+    <!-- How can I report fraud or scam job postings on the app? -->
+
+
+
+    <!-- How does the app protect my personal information? -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="How does the app protect my personal information?"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:id="@+id/mainTextView4"
+        android:textColor="@color/black"
+        android:padding="16dp"/>
+
+    <TextView
+        android:id="@+id/extraTextView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The app prioritizes user privacy and implement robust data protection measures to safeguard personal information shared by workers. This can include encryption of sensitive data, secure storage practices, and compliance with data protection regulations."
+        android:padding="16dp"
+        android:textSize="16sp"
+        android:visibility="gone" />
+
+</LinearLayout>

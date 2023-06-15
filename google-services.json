@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "942623880769",
+    "project_id": "shramik-de7c0",
+    "storage_bucket": "shramik-de7c0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:942623880769:android:326ead7f0ae6ab15b3b8c0",
+        "android_client_info": {
+          "package_name": "com.example.shramikapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "942623880769-8fm0ps3tvc6enrle3i0ri76u3v5osji4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.shramikapp",
+            "certificate_hash": "7a63ba6b93a08461451448342c0a12e6a09feb2f"
+          }
+        },
+        {
+          "client_id": "942623880769-e6iog7li819vj8ld4jbod73tknpa4ckq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCb_gvlP07E-3EMHZFtOIzH-e9OmrXHV4w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "942623880769-e6iog7li819vj8ld4jbod73tknpa4ckq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
